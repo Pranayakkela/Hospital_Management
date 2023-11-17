@@ -1,3 +1,4 @@
+'''
 def outer():
     x=3
     def inner():
@@ -8,3 +9,8 @@ def outer():
 a.outer()
 print(a.__name__)
 print(a)
+'''
+a=10
+b=20
+c=a+b
+print(c)
